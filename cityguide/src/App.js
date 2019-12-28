@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import Nav from './components/Nav/Nav'
 
 function App() {
 	return (
 		<div className="App">
-      <h1>Welcome to Canal Fulton</h1>
+      <Nav/>
 		</div>
 	);
 }
